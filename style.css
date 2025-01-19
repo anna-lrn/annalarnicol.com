@@ -1051,6 +1051,7 @@ h4{
 
     #liste-projets{
         grid-template-columns: 1fr;
+        width: 100%;
     }
 
     .imgContainer{
