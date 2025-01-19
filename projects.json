@@ -1,0 +1,69 @@
+[
+    {
+        "title": "Plateforme de données industrielles",
+        "tags": ["UX/UI","UR","Delivery","Kit UI"],
+        "category": "Product Design",
+        "cover": "vitesse.webp",
+        "date": "2024",
+        "firstimage": "",
+        "context": "<p>Le monde industriel repose sur le fonctionnement de machines plus ou moins récentes. En remonter les données est complexe. </p><p>Pourtant, il est nécéssaire de connaître finement le fonctionnement chaque partie d’une ligne de production pour limiter le gaspillage d’énergie, de matière et temps. </p><p>En janvier 2024, Full Speed Automation rachète Niagara. Les deux produits sont complémentaires et se rejoignent même à certains moments.</p>",
+        "challenge": "<p>Faire de deux produit distincts une seule et unique expérience.</p><p>Permettre aux utilisateurs existants de deux produits de pouvoir mettre à jour leur logiciel vers cette version unifiée sans perdre de fonctionnalités.</p>",
+        "actions": "<p>Schéma fonctionnels, flow utilisateurs, refonte de l’identité visuelle,  kit UI, maquettes, prototype haute fidélité.</p>",
+        "images": ["vitesse1.webp","vitesse2.webp","vitesse3.webp","vitesse4.webp","vitesse5.webp","vitesse6.webp","vitesse7.webp","vitesse8.webp","vitesse9.webp","vitesse10.webp"],
+        "imageDescriptions": {
+            "seaver1.webp": "toto"
+        }
+    },
+    {
+        "title": "Jumeau Numérique de données industrielles ",
+        "tags": ["UX/UI","Recherche Utilisateur","Prototype"],
+        "category": "Product Design",
+        "cover": "niag-jn.webp",
+        "date": "2023",
+        "firstimage": "",
+        "context": "<p>Niagara permet de remonter les données issues des machines de production d’une usine. </p><p>Seulement ces machines sont toutes différentes et la donnée remontée n’est pas suffisamment qualitative pour être analysée. Cela revient à comparer des choux et des carottes.</p>",
+        "challenge": "<p>Comment standardiser la donnée pour leur collecte et consommation dans un environnement aussi hétéroclite qu’une ligne de production ?</p>",
+        "actions": "<p>Sur ce projet, j’ai pu réaliser des entretiens utilisateurs de découverte, de la recherche secondaire, de nombreux schémas fonctionnels, des maquettes et un prototype haute fidélité pour tester la fonctionnalité créée.</p><p>Le jumeau numérique de Niagara permet d’appliquer un standard de données de manière simple et flexible sur des données de production industrielles.</p>",
+        "images": ["niag-jn1.webp","niag-jn2.webp","niag-jn3.webp","niag-jn4.webp"],
+        "imageLiens": {
+            "niag-jn4.webp": "https://youtu.be/4-ROnH_iC5Y"
+        },
+        "imageDescriptions": {
+            "niag-jn1.webp": "Le principe du Jumeau Numérique de Données est d’avoir facilement accès aux données standardisées d’une machine de production. Il introduit deux nouveaux concepts proches de la programmation orientée objet : les modèles et les instances.",
+            "niag-jn2.webp": "Un modèle est un simple fichier JSON décrivant les données souhaitées et leur format : données statiques (descriptives), données dynamiques (issues de la machine), transformation (calculs effectués en direct) et alarmes (conditions). ",
+            "niag-jn3.webp": "Une instance est une source de donnée standardisée grâce à un modèle. Si nous prenons l’exemple d’une ensacheuse, la source de donnée envoie de la donnée brute et en y appliquant le modèle, nous obtenons de la donnée utilisable par la suite.",
+            "niag-jn4.webp": "La magie réside dans le fait de pouvoir ensuite lier les données réelles remontées de la machine à l’attendu du modèle. Un fois ce mapping fait, la donnée est mise à disposition sur un topic MQTT. Le flow complet est visible dans la vidéo, réalisé grâce à un prototype Figma."
+        }
+    },
+    {
+        "title": "Template Instagram pour une avocate ",
+        "tags": ["Graphisme","Identité visuelle", "Templates"],
+        "category": "Graphisme",
+        "cover": "lola-insta.webp",
+        "date": "2024",
+        "firstimage": "",
+        "context": "<p>Après la création de son identité, nous avons enchaîné avec la préparation de sa communication sur les réseaux sociaux. Sa clientèle étant principalement des particuliers, Instagram est un point de contact à privilégier. </p>",
+        "challenge": "<p>Comment vulgariser et rendre accessible des notions de droit.</p><p>Comment permettre à l'avocate de créer elle même ses contenus</p>",
+        "actions": "<p>On garde des contrastes forts pour rester le plus accessible et la possibilité d’avoir plus ou moins de texte en fonction du besoin.</p><p>Pour lui permettre d’être autonome, je lui ai proposé un set de visuels facilement modifiables et déclinables sur Canva.</p>",
+        "link": "",
+        "link-text": "",
+        "images": ["lola1.webp","lola2.webp","lola3.webp","lola4.webp","lola5.webp","lola6.webp","lola7.webp"]
+    },
+    {
+        "title": "Refonte UI d’une app de sports équestre",
+        "tags": ["UI","Kit UI","Mobile","IoT"],
+        "category": "UI Design",
+        "cover": "seaver-app.webp",
+        "date": "2021",
+        "firstimage": "",
+        "context": "<p>L’application Seaver permet aux cavaliers de monitorer les constantes de leur cheval lors de la pratique de l’équitation.</p>L’application a été construite au fil de l’eau, chaque fonctionnalité en silo.</p>",
+        "challenge": "<p>Uniformiser l’application et améliorer l’expérience de navigation globale.</p>",
+        "actions": "<p>Mise en place d’un kit UI comprenant composants et illustrations.</p><p>Application de bonnes pratiques autant UI que UX.</p>",
+        "images": ["seaver1.webp","seaver2.webp","seaver3.webp","seaver4.webp","seaver5.webp","seaver6.webp"],
+        "imageDescriptions": {
+            "seaver1.webp": "Dans un premier temps, il s’agit de répertorier toutes les fonctionnalités et écrans.",
+            "seaver2.webp": "Puis de mettre en place un Kit UI",
+            "seaver3.webp": "Pour pousser la cohérence graphique, j’ai créé des illustrations pour chaque grande fonctionnalité. J’ai utilisé un système de marionnette afin d’avoir un cheval consistent sur toutes les images."
+        }
+    }
+]

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Larnicol // Product Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  <!-- Hotjar Tracking Code for https://annalarnicol.com/ -->
+	<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:5167997,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+</head>
+
+<body>
+   <div class="cursor" id="cursor"></div>
+  <div class="cursor-big" id="cursorBig"></div>
+    <div id="nav">
+        <a class="logo-anna nowrap desktop" href="index.html">
+            <span class="color"><</span> Anna Larnicol <span class="color">></span>
+        </a>
+        <a class="logo-anna nowrap mobile" href="index.html">
+            <span class="color"><</span>AL<span class="color">></span>
+        </a>
+        <div id="menu">
+            <a href="index.html#projets">Projets</a>
+            <a class="desktop" href="index.html#ressources">Ressources</a>
+            <a href="archives.html">Archives</a>
+            <a id="aproposBTN" onclick="openAPropos()">A propos</a>
+        </div>
+    </div>
+
+    <div id="apropos">
+        <h2>A propos</h2>
+        <button class="close-button" id="aproposCloseBTN" onclick="closeAPropos()">X</button>
+
+        <p>Autonome et rigoureuse, j’ai un fort intérêt pour la tech, surtout quand elle est responsable et engagée.
+        </p>
+        <p>Les process métier complexes ne me font pas peur et je travaille main dans la main avec les développeurs.
+        </p>
+        <p>J’ai évolué principalement en tant que seule designer dans des start-up early stage/pre-PMF en B2B
+            (coopérative de données, app pour objet connecté, SaaS industriel). Cela m'a permis de collaborer en
+            lien étroit avec des équipes très variées.</p>
+        <img src="tele.jpg" alt="">
+        <h3><span class="color"># </span>Experiences</h3>
+        <div id="experiences" class="blocTimeline"></div>
+        <h3><span class="color"># </span>Formations</h3>
+        <div id="formations" class="blocTimeline"></div>
+        <h3><span class="color"># </span>Compétences</h3>
+        <div class="competences">
+            <h4>Design UX/UI</h4>
+            <p>Tests et recherche utilisateur, maquettes basse et haute fidélité, prototypage, kits UI.</p>
+            <h4>Tech savvy</h4>
+            <p>Bases d’HTML/CSS, JavaScript, compréhension des frameworks frontend (React, Angular) ainsi que du cycle
+                de vie d’un logiciel web. </p>
+            <h4>Design Graphique</h4>
+            <p>Edition, identité, communication print et web</p>
+            <h4>Outils</h4>
+            <p>Figma, Notion, Linear, Suite Adobe, Dovetail, Blender, Webflow.</p>
+            <p class="softskills">Grande capacité d’adaptation et d’apprentissage, réactivité et proactivité, autonomie.
+            </p>
+        </div>
+        <h3><span class="color"># </span>Langues</h3>
+        <div class="competences">
+            <h4>Francais</h4>
+            <p>Maternel</p>
+            <h4>Anglais</h4>
+            <p>Professionnel</p>
+            <h4>Breton</h4>
+            <p>Insultes uniquement</p>
+        </div>
+    </div>
+
+    <div id="aproposOverlay" class="overlay" onclick="closeAPropos()" style="display: none;"></div>
+
+    <div id="archives">
+        <div class="title">
+            <h2><span class="color">#</span> Archives</h2>
+            <p>Sujets sur lesquels j’ai pu travailler, de 2019 à aujourd’hui.</p>
+        </div>
+        <div id="archivesListe"></div>
+    </div>
+
+
+    <div id="a-details" style="display: none;">
+        <div class="a-header">
+            <button class="close-button" id="a-close-button">X</button>
+            <div class="a-text">
+                <div style="display: flex; flex-direction: column; gap: 24px;">
+                    <div class="header">
+                        <div class="a-header-title">
+                            <h3 id="a-title"></h3>
+                            <div class="a-sous-titre">
+                                <a class="badge lien" id="a-client"></a>
+                                <p id="a-category"></p>
+                                <p class="color bold">-</p>
+                                <p id="a-date"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <p id="a-description"></p>
+                </div>
+                <img id="a-fi" alt="">
+            </div>
+        </div>
+        <div id="a-images">
+        </div>
+    </div>
+    <div id="a-overlay" class="overlay" onclick="closeArchive()" style="display: none;"></div>
+
+
+    <div class="footer">
+        <a class="logo-anna nowrap" href="index.html">
+            <span class="color"><</span> Anna Larnicol <span class="color">></span>
+        </a>
+        <ul class="badges">
+            <a class="lien" onclick="openAPropos()">A propos</a>
+            <a class="lien" href="mentions-legales.html" class="desktop">Mentions Légales</a>
+            <a href="https://www.linkedin.com/in/anna-larnicol/" target="_blank" class="lien"><img src="linkedin.png"
+                    alt="Linkedin" class="logo"></a>
+            <a href="https://dribbble.com/Anna_Larnicol" target="_blank" class="lien"><img src="dribbble.png"
+                    alt="Dribbble" class="logo"></a>
+            <a href="https://www.figma.com/@anna_larnicol" target="_blank" class="lien"><img src="figma.png" alt="Figma"
+                    class="logo"></a>
+        </ul>
+    </div>
+
+</body>
+
+</html>

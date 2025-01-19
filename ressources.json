@@ -1,0 +1,38 @@
+[
+    {
+        "nom": "Composant modulaire fil d'Ariane",
+        "tag": "Composant Figma",
+        "img": "breadcrum.webp",
+        "link": "https://www.figma.com/community/file/1345538530409547690/modular-breadcrumb-component"
+    },
+    {
+        "nom": "Composant tableau facile",
+        "tag": "Composant Figma",
+        "img": "table.webp",
+        "link": "https://www.figma.com/community/file/1296405074289092988/easy-table-component"
+    },
+    {
+        "nom": "Champ de sélection animé",
+        "tag": "Composant Figma",
+        "img": "selectField.webp",
+        "link": "https://www.figma.com/community/file/1283459295388884464/animated-select-field-dropdown-component"
+    },
+    {
+        "nom": "Champ de saisie animé",
+        "tag": "Composant Figma",
+        "img": "inputField.webp",
+        "link": "https://www.figma.com/community/file/1223562235236312072/animated-input-field-component"
+    },
+    {
+        "nom": "Composant bouton entièrement personnalisable",
+        "tag": "Composant Figma",
+        "img": "button.webp",
+        "link": "https://www.figma.com/community/file/1204426953507280127/fully-customizable-button-component"
+    },
+    {
+        "nom": "Où sont les informaticiennes ? ",
+        "tag": "Mémoire",
+        "img": "memoire.webp",
+        "link": "ressources/anna_larnicol_ou_sont_les_informaticiennes.pdf"
+    }
+]
