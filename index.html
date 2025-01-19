@@ -49,10 +49,10 @@
                     class="color">Product
                     Desginer</span> <span class="nowrap">depuis 3 ans.</span></h1>
             <div>
-                <p>J’ai l’habitude de designer des logiciels <span class="bold">SaaS B2B</span> dans différentes
+                <p style="font-size: 16px !important;">J’ai l’habitude de designer des logiciels <span class="bold">SaaS B2B</span> dans différentes
                     start-ups <span class="nowrap">au début de&nbspleur aventure.</span>
                 </p>
-                <p>J’aide aussi de petites entreprises, principalement dans l'artisanat et l'art, à créer <span
+                <p style="font-size: 16px !important;">J’aide aussi de petites entreprises, principalement dans l'artisanat et l'art, à créer <span
                         class="bold">leur premier site web</span> avec des outils <span class="bold">no-code.</span></p>
             </div>
             <ul id="badges">
@@ -78,7 +78,7 @@
 
     <div id="apropos">
         <h2>A propos</h2>
-        <button class="close-button" id="aproposCloseBTN" onclick="closeAPropos()">X</button>
+        <button class="close-button hoverEffect" id="aproposCloseBTN" onclick="closeAPropos()">X</button>
 
         <p>Autonome et rigoureuse, j’ai un fort intérêt pour la tech, surtout quand elle est responsable et engagée.
         </p>
@@ -124,7 +124,7 @@
             <p>Sélection de travaux : en tant que designer intégrée ou freelance. </p>
                   </div>
         <div id="liste-projets"></div>
-        <a href="archives.html"><button>Plus de projets dans les archives</button></a>
+        <a href="archives.html"><button class="hoverEffect">Plus de projets dans les archives</button></a>
     </div>
 
     <div id="p-details" style="display: none;">
@@ -138,26 +138,29 @@
                         <p id="p-date"></p>
                     </div>
                 </div>
-                <a href="#projets"><button class="close-button" id="close-button">X</button></a>
+                <a href="#projets"><button class="close-button hoverEffect" id="close-button">X</button></a>
             </div>
             <img id="p-fi" alt="">
             <div id="p-text">
-                <div>
-                    <h4><span class="color">#</span> Contexte</h4>
+           
+                    <h4>Contexte</h4>
                     <p id="p-context"></p>
-                </div>
-                <div>
-                    <h4><span class="color">#</span> Challenge</h4>
+            
+                    <h4>Challenge</h4>
                     <p id="p-challenge"></p>
-                </div>
-                <div>
-                    <h4><span class="color">#</span> Actions</h4>
+            
+                    <h4>Actions</h4>
                     <p id="p-actions"></p>
-                </div>
+             
             </div>
         </div>
         <div id="p-images">
         </div>
+        <div id="p-nav">
+            <div id="p-prev" class="nav-project hoverEffect"></div>
+            <button class="desktop hoverEffect" id="projet-button">Retour à la liste des projets</button>
+            <div id="p-next" class="nav-project hoverEffect"></div>
+        </div>        
     </div>
     <div id="p-overlay" class="overlay" onclick="closeProjet()" style="display: none;"></div>
 

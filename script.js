@@ -116,12 +116,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //afficher les projets
 
+var projects = []; // Variable globale pour stocker les projets
+
 document.addEventListener("DOMContentLoaded", function () {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "projects.json", true);
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
-      var projects = JSON.parse(xhr.responseText);
+      projects = JSON.parse(xhr.responseText);
       var projectList = document.getElementById("liste-projets");
 
       projects.forEach(function (project) {
@@ -156,8 +158,13 @@ function displayProjectDetails(project) {
   var pchallenge = document.getElementById("p-challenge");
   var pactions = document.getElementById("p-actions");
   var closeButton = document.getElementById("close-button");
+  var projetButton = document.getElementById("projet-button");
   var pfi = document.getElementById("p-fi");
   var pimages = document.getElementById("p-images");
+  var pprev = document.getElementById("p-prev");
+  var pnext = document.getElementById("p-next");
+  
+
 
   ptitle.textContent = project.title;
   pcategory.textContent = project.category;
@@ -197,10 +204,36 @@ function displayProjectDetails(project) {
       pimages.appendChild(container);
   });
 
+  // Afficher les projets précédent et suivant
+  var currentIndex = projects.indexOf(project);
+  var prevIndex = (currentIndex - 1 + projects.length) % projects.length;
+  var nextIndex = (currentIndex + 1) % projects.length;
+
+  pprev.innerHTML = `
+      <div onclick="displayProjectDetails(projects[${prevIndex}])">
+        <p>←</p>
+        <p >${projects[prevIndex].title}</p>
+      </div>
+  `;
+
+  pnext.innerHTML = `
+    <div onclick="displayProjectDetails(projects[${nextIndex}])">
+      <p>${projects[nextIndex].title}</p>
+      <p>→</p>
+    </div>
+  `;
+
+  var adjustment = window.innerWidth * 3.5 / 100; // Calcule 3.5vw
+  pdetails.scrollTo({
+    top: pdetails.offsetTop - adjustment,
+    behavior: "instant"
+  });
+
   pdetails.style.display = "block";
   poverlay.style.display = "block";
 
   closeButton.addEventListener("click", closeProject);
+  projetButton.addEventListener("click", closeProject);
   poverlay.addEventListener("click", closeProject);
 }
 

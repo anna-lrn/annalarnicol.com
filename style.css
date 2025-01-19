@@ -2,8 +2,9 @@
     /* Mode clair */
     --background: #FFFFFF;
     --text-color: #241D38;
-    --stroke-color: rgba(75, 53, 28, 0.06);
+    --stroke-color: rgba(234, 232, 228, 1);
     --background-color: #F4F3F1;
+    --background-color-transp: rgba(75, 53, 28, 0.06);
     --accent: #E69435;
 
     /* Autres variables */
@@ -21,7 +22,7 @@
 		
 		  /* Curseur petit (8px) */
   .cursor {
-	z-index: 100;
+	z-index: 1000;
     position: absolute;
     width: 8px;
     height: 8px;
@@ -35,7 +36,7 @@
   
   /* Curseur grand (40px) */
   .cursor-big {
-	z-index: 100;
+	z-index: 1000;
     position: absolute;
     width: 40px;
     height: 40px;
@@ -69,6 +70,7 @@ a{
 
 p {
     line-height: 150%;
+    font-size: 14px;
 }
 
 .mobile{
@@ -92,7 +94,7 @@ button {
     width: fit-content;
     padding: 8px 12px;
     border: 1px solid var(--stroke-color);
-    background-image: linear-gradient(to right, var(--stroke-color), var(--stroke-color));
+    background-image: linear-gradient(to right, var(--background-color), var(--background-color));
     color: var(--text-color);
     font-family: "Fira Sans";
     font-size: var(--fontSize);
@@ -101,9 +103,17 @@ button {
     cursor: pointer !important;
 }
 
-button:hover {
-    background-image: linear-gradient(to right, var(--stroke-color), var(--stroke-color));
+.hoverEffect {
+    filter: brightness(100%);
+    transition: all 0.25s ease;
+
 }
+
+.hoverEffect:hover {
+    filter: brightness(95%);
+}
+
+
 
 html{
     scroll-behavior: smooth;
@@ -141,7 +151,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Fira Code";
+    font-family: "Fira Sans";
     font-weight: 700;
 }
 
@@ -161,8 +171,12 @@ h2 {
     font-size: 40px;
 }
 
-h3,h4 {
-    font-size: 20px;
+h3 {
+    font-size: 18px;
+}
+
+h4{
+    font-size: 16px;
 }
 
 .underline {
@@ -196,7 +210,7 @@ h3,h4 {
 }
 
 .navbar-scrolled{
-    background-color: var(--background-color) !important;
+    background-color: var(--background) !important;
     padding: 4px 32px !important;
     border-bottom: 1px solid var(--stroke-color) !important;
 }
@@ -573,6 +587,7 @@ h3,h4 {
 }
 
 .projet > h3{
+    font-size: 20px;
     flex-grow: 1;
 }
 
@@ -589,6 +604,34 @@ h3,h4 {
     font-size: 14px;
 }
 
+#p-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;    
+    margin: 0 2.5% 2.5% 2.5%;
+    padding: 2.5% 0px 0px 0px;
+    border-top: 1px solid var(--stroke-color);
+    justify-items: center;
+}
+
+.nav-project > div{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 12px;
+    align-items: space-between;
+    font-size: 14px;
+    background-color: var(--background-color);
+    line-height: 150%;
+    border: 1px solid var(--stroke-color);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-project > div > p{
+    font-weight: 500;
+} 
+
 /* Details projets */
 
 #p-details, #a-details{
@@ -603,7 +646,6 @@ h3,h4 {
     border-radius: 8px;
     border: 1px solid var(--stroke-color);
     overflow: auto;
-    border: 1px solid var(--stroke-color);
 }
 
 .p-header{
@@ -631,16 +673,13 @@ h3,h4 {
 }
 
 #p-text{
-    display: flex;
-    flex-direction: row;
-    gap: 56px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
 }
 
-#p-text > div, #a-text > div{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 33%;
+#p-text > *{
+    padding: 16px 0;
+    border-top: 1px solid var(--stroke-color);
 }
 
 #p-images, #a-images{
@@ -702,6 +741,7 @@ h3,h4 {
     gap: 16px;
     padding: 16px;
     transition: all 0.3s ease; 
+    cursor: ne-resize !important;
 }
 
 .ressource:hover{
@@ -933,8 +973,8 @@ h3,h4 {
     }
 																																																																						  
 	#nav{
-	padding: 16px;																																																																						
-																																																																						  }																																																																						
+	padding: 16px;
+    }																																																																						
 
     #menu{
         gap: 16px;
@@ -1042,15 +1082,6 @@ h3,h4 {
         gap: 32px;
     }
 
-    #p-text{
-        flex-direction: column;
-        gap: 24px
-    }
-
-    #p-text > div{
-        width: 100%;
-    }
-
     #p-text > div > h4{
         font-size: 16px;
     }
@@ -1062,6 +1093,15 @@ h3,h4 {
 
     .p-image-container{
         width: 100%;
+    }
+
+    #p-nav{
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .nav-project>div>img{
+        display: none;
     }
 
     /* Ressources */
