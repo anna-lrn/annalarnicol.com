@@ -310,6 +310,7 @@ h4{
     justify-content: center;
     font-size: 14px;
     width: fit-content;
+    white-space: nowrap;
 }
 
 .badge2 {
@@ -847,7 +848,7 @@ h4{
 }
 
 .archive > div > *, #a-client{
-    height: 28px;;
+    height: 28px;
     padding: 12px  !important;
 }
 
@@ -884,13 +885,25 @@ h4{
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 56px;
+    justify-items: start;
+    align-items: start;
+}
+
+.a-text > div{
+    align-self: stretch;
 }
 
 #a-fi{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border: 1px solid var(--stroke-color);
     border-radius: 8px;
-    grid-row: 0/span 2;   
+    grid-row: 0/1;
+}
+
+#a-description{
+    min-height: 0;
+    overflow-y: scroll;
 }
 
 #a-description > p{
@@ -961,6 +974,7 @@ h4{
         justify-content: flex-start;
         gap: 32px;
         margin: 0px;
+        cursor: auto;
     }
 
     h1 {
@@ -1161,8 +1175,14 @@ h4{
 
     /* Archives */
 
+    #archives{
+        margin-top: 60px;
+        padding: 24px 5vw;
+    }
+
     #archivesListe{
         grid-template-columns: 1fr;
+        width: 100%;
     }
 
     .a-text{

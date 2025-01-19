@@ -330,8 +330,22 @@ function displayArchiveDetails(archive) {
       aimages.appendChild(container);
   });
 
+  if (window.innerWidth > 768) {
+    afi.onload = function() {
+      resizeAFi();
+    };
+  }
+
   adetails.style.display = "block";
   aoverlay.style.display = "block";
+
+  
+
+  var adjustment = window.innerWidth * 4 / 100; // Calcule 4vw
+  adetails.scrollTo({
+    top: adetails.offsetTop - adjustment,
+    behavior: "instant"
+  });
 
   closeButton.addEventListener("click", closeArchive);
   aoverlay.addEventListener("click", closeArchive);
@@ -345,6 +359,20 @@ function closeArchive() {
   aoverlay.style.display = "none";
 }
 
+function resizeAFi() {
+  // Récupérer l'élément de l'image
+  const imageElement = document.getElementById('a-fi');
+    
+  // Récupérer l'élément de la description
+  const descriptionContainer = document.querySelector('.a-text > div');
+  
+  // Récupérer la hauteur de l'image
+  const imageHeight = imageElement.offsetHeight;
+  console.log(imageHeight);
+  
+  // Appliquer cette hauteur à .a-text > div
+  descriptionContainer.style.height = `${imageHeight}px`;
+}
 
 
 //faire bouger les badges
