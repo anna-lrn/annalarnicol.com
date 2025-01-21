@@ -375,7 +375,8 @@ h4{
 } 
 
 #apropos > h3{
-    margin-top: 32px;
+    margin-top: 56px;
+    font-size: 26px;
 }
 
 #apropos > img {
@@ -398,6 +399,7 @@ h4{
     background-image: linear-gradient(to right, var(--stroke-color), var(--stroke-color)), linear-gradient(to right, var(--stroke-color), var(--stroke-color)),linear-gradient(to right, var(--stroke-color), var(--stroke-color));
     z-index: 300;
     display: grid;
+    opacity: 0.5;
 }
 
 .blocTimeline {
@@ -1150,6 +1152,11 @@ h4{
     #apropos > img {
         width: 100%;
         margin: 0;
+    }
+
+    #apropos > h3{
+        margin-top: 32px;
+        font-size: 20px;
     }
 
     .competences > h4{
