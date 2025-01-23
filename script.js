@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
         arcItem.classList.add("archive");
         var tagsList = "";
         arc.tags.forEach(function (tag) {
-          tagsList += "<p class=\"badge\">" + tag + "</p>";
+          tagsList += "<p class=\"badge-light\">" + tag + "</p>";
         });
         arcItem.innerHTML = "<img class=\"a-img\" src=\"archives/" + arc.cover + "\"> <h3>" + arc.title + "</h3> <div> <a class=\"badge lien\" target=\"_blank\" href=\"" + arc.clientweb + "\">" + arc.client + "</a>" + tagsList +"</div>";
         arcItem.addEventListener("click", function () {
@@ -289,7 +289,7 @@ function displayArchiveDetails(archive) {
   atitle.textContent = archive.title;
   var tagsList = "";
         archive.tags.forEach(function (tag) {
-          tagsList += "<span class=\"badge\">" + tag + "</span>";
+          tagsList += "<span class=\"badge-light\">" + tag + "</span>";
         });
   acategory.innerHTML = tagsList;
   adate.textContent = archive.date;

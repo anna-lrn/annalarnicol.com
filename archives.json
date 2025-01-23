@@ -46,6 +46,70 @@
         }
     },
     {
+        "title": "Site vitrine pour une plateforme de données industrielles",
+        "tags": [
+            "Identité Visuelle",
+            "Webdesign",
+            "Webflow"
+        ],
+        "client": "Niagara",
+        "cover": "niagsite-1.webp",
+        "date": "2023",
+        "description":"",
+        "images": [
+            "niagsite-2.webp",
+            "niagsite-3.webp"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "Connectez et orchestrez votre équipement industriel avec Vitesse",
+        "tags": [
+            "Identité Visuelle",
+            "Webdesign",
+            "Webflow"
+        ],
+        "client": "Vitesse Automation",
+        "cover": "vitessesite1.webp",
+        "date": "2024",
+        "description":"",
+        "images": [
+            "vitessesite2.webp",
+            "vitessesite3.webp"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "SCorp-io Autopilot : un moteur de règles pour une GTB connectée",
+        "tags": [
+            "Delivery",
+            "UI"
+        ],
+        "client": "Scorp-io",
+        "clientweb": "https://scorp-io.com/",
+        "cover": "autopilot-1.webp",
+        "date": "2024",
+        "description":"J’ai eu la chance d’accompagner Scorp-io sur la concrétisation de ce projet. Mon intervention se situe après leur recherches et premiers prototype. Il s’agit ici de créer l’interface permettant de créer des règles activant différents mode de la GTB d’un bâtiment. Le but pour l’utilisateur est de créer facilement des  règles automatisées de régulation adaptées à l’usage des bâtiments, par exemple en  fonction des conditions intérieures et extérieures (température,  occupation, prévisions météo, calendriers, etc.).",
+        "images": [
+            "autopilot-2.webp",
+            "autopilot-3.webp",
+            "autopilot-4.webp",
+            "autopilot-5.webp",
+            "autopilot-6.webp",
+            "autopilot-7.webp"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
         "title": "Portfolio d'une artiste laqueure",
         "tags": [
             "Identité Visuelle",
@@ -105,7 +169,7 @@
         "clientweb": "https://niagara.tech/",
         "cover": "niag3d1.png",
         "date": "2022",
-        "description":"<p>Voici une série de petites illustrations que j'ai réalisées pour le site web de Niagara sur l'industrie 4.0.</p>",
+        "description":"<p>Voici une série d'illustrations réalisées pour le site web de Niagara sur l'industrie 4.0.</p>",
         "images": [
             "niag3d2.png",
             "niag3d3.png",
