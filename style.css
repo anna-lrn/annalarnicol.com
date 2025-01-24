@@ -719,7 +719,7 @@ h4{
 #p-text{
     display: grid;
     grid-template-columns: 120px 1fr;
-    padding: 3.5vw 9vw;
+    padding: 40px 9vw;
 }
 
 #p-text > *{
