@@ -9,9 +9,12 @@
         "context": "<p>Le monde industriel repose sur le fonctionnement de machines plus ou moins récentes. En remonter les données est complexe. </p><p>Pourtant, il est nécéssaire de connaître finement le fonctionnement chaque partie d’une ligne de production pour limiter le gaspillage d’énergie, de matière et temps. </p><p>En janvier 2024, Full Speed Automation rachète Niagara. Les deux produits sont complémentaires et se rejoignent même à certains moments.</p>",
         "challenge": "<p>Faire de deux produit distincts une seule et unique expérience.</p><p>Permettre aux utilisateurs existants de deux produits de pouvoir mettre à jour leur logiciel vers cette version unifiée sans perdre de fonctionnalités.</p>",
         "actions": "<p>Schéma fonctionnels, flow utilisateurs, refonte de l’identité visuelle,  kit UI, maquettes, prototype haute fidélité.</p>",
-        "images": ["vitesse1.webp","vitesse2.webp","vitesse3.webp","vitesse4.webp","vitesse5.webp","vitesse6.webp","vitesse7.webp","vitesse8.webp","vitesse9.webp","vitesse10.webp"],
+        "images": ["vitesse8.webp","vitesse10.webp","vitesse9.webp","vitesse7.webp","vitesse1.webp","vitesse2.webp","vitesse3.webp","vitesse4.webp","vitesse5.webp","vitesse6.webp"],
         "imageDescriptions": {
-            "seaver1.webp": "toto"
+            "vitesse8.webp": "Dresser la carte de toutes les fonctionnalités et créer une structure de base pour les produits fusionnés en un seul en auditant les différentes équipes (développement, produit, ventes et opérations). Travail sur l'ontologie et quelles entités va manipuler l'utilisateur.",
+            "vitesse10.webp": "Pour les fonctionnalités qui se recoupent, centralisation des documents existants et dessin des user-flows macro avec une attention particulière aux types d'utilisateurs métier ciblés.",
+            "vitesse9.webp": "Zoom sur un flux utilisateur détaillé.",
+            "vitesse7.webp": "Design des interfaces, par fonctionnalité. Les questions en suspens sont notés sur des post-it et les composants bien visible sous chaque flux."
         }
     },
     {
@@ -24,12 +27,13 @@
         "context": "<p>Niagara permet de remonter les données issues des machines de production d’une usine. </p><p>Seulement ces machines sont toutes différentes et la donnée remontée n’est pas suffisamment qualitative pour être analysée. Cela revient à comparer des choux et des carottes.</p>",
         "challenge": "<p>Comment standardiser la donnée pour leur collecte et consommation dans un environnement aussi hétéroclite qu’une ligne de production ?</p>",
         "actions": "<p>Sur ce projet, j’ai pu réaliser des entretiens utilisateurs de découverte, de la recherche secondaire, de nombreux schémas fonctionnels, des maquettes et un prototype haute fidélité pour tester la fonctionnalité créée.</p><p>Le jumeau numérique de Niagara permet d’appliquer un standard de données de manière simple et flexible sur des données de production industrielles.</p>",
-        "images": ["niag-jn1.webp","niag-jn2.webp","niag-jn3.webp","niag-jn4.webp"],
+        "images": ["niag-jn1.webp","niag-jn5.webp","niag-jn2.webp","niag-jn3.webp","niag-jn4.webp"],
         "imageLiens": {
             "niag-jn4.webp": "https://youtu.be/4-ROnH_iC5Y"
         },
         "imageDescriptions": {
             "niag-jn1.webp": "Le principe du Jumeau Numérique de Données est d’avoir facilement accès aux données standardisées d’une machine de production. Il introduit deux nouveaux concepts proches de la programmation orientée objet : les modèles et les instances.",
+            "niag-jn5.webp": "Travail sur l'experience globale et les différents types d'utilisateurs.",
             "niag-jn2.webp": "Un modèle est un simple fichier JSON décrivant les données souhaitées et leur format : données statiques (descriptives), données dynamiques (issues de la machine), transformation (calculs effectués en direct) et alarmes (conditions). ",
             "niag-jn3.webp": "Une instance est une source de donnée standardisée grâce à un modèle. Si nous prenons l’exemple d’une ensacheuse, la source de donnée envoie de la donnée brute et en y appliquant le modèle, nous obtenons de la donnée utilisable par la suite.",
             "niag-jn4.webp": "La magie réside dans le fait de pouvoir ensuite lier les données réelles remontées de la machine à l’attendu du modèle. Un fois ce mapping fait, la donnée est mise à disposition sur un topic MQTT. Le flow complet est visible dans la vidéo, réalisé grâce à un prototype Figma."
