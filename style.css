@@ -678,7 +678,7 @@ h4{
 }
 
 .p-header{
-    padding: 3.5vw 0;
+    padding: 40px 0;
 
     background-color: var(--background-color);
     display: flex;
@@ -719,7 +719,7 @@ h4{
 #p-text{
     display: grid;
     grid-template-columns: 120px 1fr;
-    padding: 40px 9vw;
+    padding: 0px 9vw;
 }
 
 #p-text > *{
