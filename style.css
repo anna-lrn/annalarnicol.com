@@ -225,7 +225,7 @@ h4{
     font-weight: 600;
     font-size: var(--fontSize);
     text-decoration: none;
-    font-family: "Fira Code";
+    font-family: "Fira Sans";
     font-weight: 700;
 }
 
@@ -668,9 +668,9 @@ h4{
     left: 0;
     position: fixed;
     background-color: var(--background);
-    width: 86vw;
+    width: auto;
     height: 90vh;
-    margin: 5vh 8vw;
+    margin: 5vh 5vw;
     z-index: 350;
     border-radius: 8px;
     border: 1px solid var(--stroke-color);
@@ -678,12 +678,26 @@ h4{
 }
 
 .p-header{
-    padding: 3.5vw 9vw;
+    padding: 3.5vw 0;
+
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     gap: 40px;
     position: relative;
+}
+
+#p-title{
+    padding: 0vw 9vw;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+#p-fi{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--stroke-color);
+    border-radius: 0px !important;
 }
 
 .p-header-title{
@@ -699,11 +713,13 @@ h4{
     display: flex;
     flex-direction: row;
     gap: 8px;
+    padding: 0vw 9vw;
 }
 
 #p-text{
     display: grid;
     grid-template-columns: 120px 1fr;
+    padding: 3.5vw 9vw;
 }
 
 #p-text > *{
@@ -736,7 +752,8 @@ h4{
 
 #close-button{
     position: fixed;
-    transform: translate(-50%, -50%);
+    right: 8vw;
+    top: 8vh;
 }
 
 #a-close-button{
@@ -1015,6 +1032,7 @@ h4{
 																																																																						  
 	#nav{
 	padding: 16px;
+    z-index: 2;
     }																																																																						
 
     #menu{
@@ -1035,7 +1053,8 @@ h4{
         margin: 0px;
         padding: 72px 8vw;
 		margin: 0px;
-		border-radius: 0px;																																																																						
+		border-radius: 0px;	
+        z-index: 1;																																																																					
 																																																																								
     }
 
@@ -1115,16 +1134,39 @@ h4{
         height: calc(100vh - 5vw)
     }
 
+    .p-sous-titre, #p-title{
+        padding: 0vw 4vw;
+    }
+
+    #p-title{
+        font-size: 24px;
+    }
+    
+
     #close-button{
         transform: translate(-50%,-100%);
     }
 
     .p-header{
-        padding: 4vw 4vw;
+        padding: 4vw 0vw;
         gap: 32px;
     }
 
-    #p-text > div > h4{
+    #p-text{
+        grid-template-columns: 1fr;
+        padding: 0;
+        padding: 0 4vw;
+    }
+
+    #p-text > *{
+        border: none;
+    }
+
+    #p-text > p{
+        padding: 0;
+    }
+
+    #p-text > h4{
         font-size: 16px;
     }
 

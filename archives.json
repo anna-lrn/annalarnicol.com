@@ -1,22 +1,26 @@
 [
     {
-        "title": "Kit UI pour une plateforme de supervision no-code",
+        "title": "SCorp-io Autopilot : un moteur de règles pour une GTB connectée",
         "tags": [
-            "Kit UI"
+            "Delivery",
+            "UI"
         ],
         "client": "Scorp-io",
         "clientweb": "https://scorp-io.com/",
-        "cover": "scorp1.png",
+        "cover": "autopilot-1.webp",
         "date": "2024",
-        "description": "<p>Ce kit UI est basé sur le Material Design d'Angular afin d'être mis en œuvre facilement par l'équipe de développement. Re-travail des couleurs et de certains composants pour correspondre à la vision de Scorp-io</p>",
+        "description":"J’ai eu la chance d’accompagner Scorp-io sur la concrétisation de ce projet. Mon intervention se situe après leur recherches et premiers prototype. Il s’agit ici de créer l’interface permettant de créer des règles activant différents mode de la GTB d’un bâtiment. Le but pour l’utilisateur est de créer facilement des  règles automatisées de régulation adaptées à l’usage des bâtiments, par exemple en  fonction des conditions intérieures et extérieures (température,  occupation, prévisions météo, calendriers, etc.).",
         "images": [
-            "scorp2.png",
-            "scorp3.png",
-            "scorp4.png",
-            "scorp5.png"
+            "autopilot-2.webp",
+            "autopilot-3.webp",
+            "autopilot-4.webp",
+            "autopilot-5.webp",
+            "autopilot-6.webp",
+            "autopilot-7.webp"
         ],
         "imageDescriptions": {
-            "scrop5.png": "Livraison d'un kit complet sur Figma, à la fois en mode sombre et clair."
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
         }
     },
     {
@@ -66,7 +70,7 @@
         }
     },
     {
-        "title": "Connectez et orchestrez votre équipement industriel avec Vitesse",
+        "title": "Connecter et orchestrer les équipements industriels avec Vitesse",
         "tags": [
             "Identité Visuelle",
             "Webdesign",
@@ -86,27 +90,23 @@
         }
     },
     {
-        "title": "SCorp-io Autopilot : un moteur de règles pour une GTB connectée",
+        "title": "Kit UI pour une plateforme de supervision no-code",
         "tags": [
-            "Delivery",
-            "UI"
+            "Kit UI"
         ],
         "client": "Scorp-io",
         "clientweb": "https://scorp-io.com/",
-        "cover": "autopilot-1.webp",
+        "cover": "scorp1.png",
         "date": "2024",
-        "description":"J’ai eu la chance d’accompagner Scorp-io sur la concrétisation de ce projet. Mon intervention se situe après leur recherches et premiers prototype. Il s’agit ici de créer l’interface permettant de créer des règles activant différents mode de la GTB d’un bâtiment. Le but pour l’utilisateur est de créer facilement des  règles automatisées de régulation adaptées à l’usage des bâtiments, par exemple en  fonction des conditions intérieures et extérieures (température,  occupation, prévisions météo, calendriers, etc.).",
+        "description": "<p>Ce kit UI est basé sur le Material Design d'Angular afin d'être mis en œuvre facilement par l'équipe de développement. Re-travail des couleurs et de certains composants pour correspondre à la vision de Scorp-io</p>",
         "images": [
-            "autopilot-2.webp",
-            "autopilot-3.webp",
-            "autopilot-4.webp",
-            "autopilot-5.webp",
-            "autopilot-6.webp",
-            "autopilot-7.webp"
+            "scorp2.png",
+            "scorp3.png",
+            "scorp4.png",
+            "scorp5.png"
         ],
         "imageDescriptions": {
-            "vitesse1.webp": "toto",
-            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+            "scrop5.png": "Livraison d'un kit complet sur Figma, à la fois en mode sombre et clair."
         }
     },
     {
