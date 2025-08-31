@@ -1,0 +1,42 @@
+[
+    {
+      "poste": "Product Designer",
+      "entreprise": "Niagara (rachetée par Vitesse)",
+      "date": "Janvier 2024 - Juin 2024 (2 ans et 6 mois)",
+      "desc": "Gestion de la partie delivery du produit et recherche utilisateur. Conception de flux utilisateurs, maquettes hautes fidélités, identité visuelle et objets de communication. Préparation, déroulé et analyse d'entretiens utilisateurs. Accompagnement des utilisateurs lors de leur emploi de l'application.",
+      "img": "logos/niagara.png",
+      "note": "Plateforme de données industrielles"
+    },
+    {
+      "poste": "Designer UX/UI",
+      "entreprise": "Seaver",
+      "date": "Juillet 2021 - Octobre 2022",
+      "desc": "Refonte et harmonisation UI totale de l’app. Mise en place d’un design system, d’une organisation sur Figma et de process de test utilisateur.",
+      "img": "logos/seaver.png",
+      "note": "IoT sports équestres"
+    },
+    {
+      "poste": "Designer UX/UI",
+      "entreprise": "myCo",
+      "date": "Juillet 2020 - Juin 2021",
+      "desc": "Participation aux atiliers d’idéation, facilitation graphique.Production des maquettes basses et hautes fidélités.",
+      "img": "logos/myco.png",
+      "note": "Coopérative de données éthique"
+    },
+    {
+      "poste": "Graphiste Multimédia",
+      "entreprise": "Entourage",
+      "date": "Avril 2019 - Juin 2019",
+      "desc": "Conception de supports de communication à destination des personnes sans-abri avec des méthodes centrées utilisateur.\nMise en place d’outils en interne afin d’unifier l’utilisation de la charte graphique remise à jour.",
+      "img": "logos/entourage.png",
+      "note": "Association lien social riverain/SDF"
+    },
+    {
+      "poste": "Graphiste Multimédia",
+      "entreprise": "Coexister",
+      "date": "Septembre 2018 - Mai 2019",
+      "desc": "Conception de différents types de supports communication print et web. Réalisation de vidéos pédagogique en motion design.",
+      "img": "logos/coexister.png",
+      "note": "Association lien social convictionnel"
+    }
+   ]

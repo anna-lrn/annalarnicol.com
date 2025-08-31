@@ -1,0 +1,210 @@
+[
+    {
+        "title": "SCorp-io Autopilot : un moteur de règles pour une GTB connectée",
+        "tags": [
+            "Delivery",
+            "UI"
+        ],
+        "client": "Scorp-io",
+        "clientweb": "https://scorp-io.com/",
+        "cover": "autopilot-1.webp",
+        "date": "2024",
+        "description":"J’ai eu la chance d’accompagner Scorp-io sur la concrétisation de ce projet. Mon intervention se situe après leur recherches et premiers prototype. Il s’agit ici de créer l’interface permettant de créer des règles activant différents mode de la GTB d’un bâtiment. Le but pour l’utilisateur est de créer facilement des  règles automatisées de régulation adaptées à l’usage des bâtiments, par exemple en  fonction des conditions intérieures et extérieures (température,  occupation, prévisions météo, calendriers, etc.).",
+        "images": [
+            "autopilot-2.webp",
+            "autopilot-3.webp",
+            "autopilot-4.webp",
+            "autopilot-5.webp",
+            "autopilot-6.webp",
+            "autopilot-7.webp"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "Rebranding d'une plateforme de données industrielles",
+        "tags": [
+            "Identité Visuelle",
+            "Graphisme"
+        ],
+        "client": "Vitesse Automation",
+        "clientweb": "https://vitesseautomation.com/",
+        "cover": "vit1.png",
+        "date": "2024",
+        "description": "<p>La fusion entre Niagara et Full Speed Automation (FSA) a donné naissance à une nouvelle entité → Vitesse Automation. Nous avons pris le temps de repenser l'identité visuelle pour refléter cette évolution.</p><p>Nous avons opté pour des couleurs sobres et professionnelles, combinant celles de FSA et de Niagara.</p><p>Pour se démarquer, nous avons choisi deux éléments clés : la texture, clin d'œil à la matérialité propre à FSA, qui fabrique également du matériel, ainsi que les dégradés, signature de Niagara.</p><p>En ce qui concerne la typographie, notre choix s'est porté sur Space Grotesk, une police de caractères affirmée, loin des anciennes Ubuntu et Source Sans Pro. Elle transmet une impression de technologie sans tomber dans un jargon trop « geek ».</p>",
+        "images": [
+            "vit1.png",
+            "vit2.png",
+            "vit3.png",
+            "vit4.png",
+            "vit5.webp",
+            "vit6.webp",
+            "vit7.png",
+            "vit8.png"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "Site vitrine pour une plateforme de données industrielles",
+        "tags": [
+            "Identité Visuelle",
+            "Webdesign",
+            "Webflow"
+        ],
+        "client": "Niagara",
+        "cover": "niagsite-1.webp",
+        "date": "2023",
+        "description":"",
+        "images": [
+            "niagsite-2.webp",
+            "niagsite-3.webp"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "Connecter et orchestrer les équipements industriels avec Vitesse",
+        "tags": [
+            "Identité Visuelle",
+            "Webdesign",
+            "Webflow"
+        ],
+        "client": "Vitesse Automation",
+        "cover": "vitessesite1.webp",
+        "date": "2024",
+        "description":"",
+        "images": [
+            "vitessesite2.webp",
+            "vitessesite3.webp"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "Kit UI pour une plateforme de supervision no-code",
+        "tags": [
+            "Kit UI"
+        ],
+        "client": "Scorp-io",
+        "clientweb": "https://scorp-io.com/",
+        "cover": "scorp1.png",
+        "date": "2024",
+        "description": "<p>Ce kit UI est basé sur le Material Design d'Angular afin d'être mis en œuvre facilement par l'équipe de développement. Re-travail des couleurs et de certains composants pour correspondre à la vision de Scorp-io</p>",
+        "images": [
+            "scorp2.png",
+            "scorp3.png",
+            "scorp4.png",
+            "scorp5.png"
+        ],
+        "imageDescriptions": {
+            "scrop5.png": "Livraison d'un kit complet sur Figma, à la fois en mode sombre et clair."
+        }
+    },
+    {
+        "title": "Portfolio d'une artiste laqueure",
+        "tags": [
+            "Identité Visuelle",
+            "Site vitrine"
+        ],
+        "client": "Mathilde Jallot",
+        "clientweb": "https://mathilde-jallot-laque.fr/",
+        "cover": "mathou1.webp",
+        "date": "2024",
+        "description":"<p>Mathilde Jallot est artiste laqueur. Son art se situe à la frontière entre le vernis et la peinture. Nous avons créé un site simple avec une galerie, une page par projet, un blog, une vitrine et une page de contact.</p><p>L'idée était de mettre l'accent sur l'image. Le site devait s'effacer derrière les œuvres de l'artiste. Nous avons choisi une identité simple en noir et blanc avec une typographie élégante mais discrète.</p><p>Nous avons conçu un modèle de page modulaire qui s'adapte à la quantité de contenu (texte, image). Mathilde pourra désormais ajouter et modifier des projets de manière autonome.</p>",
+        "images": [
+            "mathou2.webp",
+            "mathou3.webp",
+            "mathou4.webp",
+            "mathou5.webp",
+            "mathou6.webp"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "Identité du Haras des Campaux, centre équestre éthique",
+        "tags": [
+            "Identité Visuelle",
+            "Graphisme",
+            "Site vitrine",
+            "Logo"
+        ],
+        "client": "Haras des Campaux",
+        "clientweb": "#",
+        "cover": "hdcw1.png",
+        "date": "2022",
+        "description":"<p>Ce projet n'a jamais vu le jour, mais ce fut une belle aventure de design. Dans un cadre idyllique, l'équipe du Haras des Campaux vous accueille toute l'année pour vivre des moments équestres exceptionnels dans le respect et la bienveillance.</p><p>L'identité devait renvoyer les notion de naturel, calme et excellence.</p>",
+        "images": [
+            "hdc1.png",
+            "hdc2.png",
+            "hdc3.png",
+            "hdc4.png",
+            "hdc5.png",
+            "hdc6.webp",
+            "hdcw2.png"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "Illustrations 3D - Industrie 4.0 ",
+        "tags": [
+            "Illustration",
+            "3D"
+        ],
+        "client": "Niagara",
+        "clientweb": "https://niagara.tech/",
+        "cover": "niag3d1.png",
+        "date": "2022",
+        "description":"<p>Voici une série d'illustrations réalisées pour le site web de Niagara sur l'industrie 4.0.</p>",
+        "images": [
+            "niag3d2.png",
+            "niag3d3.png",
+            "niag3d4.png",
+            "niag3d5.png",
+            "niag3d6.png",
+            "niag3d7.png",
+            "niag3d8.png"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    },
+    {
+        "title": "Identité visuelle pour une avocate ",
+        "tags": [
+            "Identité Visuelles",
+            "Graphisme",
+            "Logo"
+        ],
+        "client": "Me Lola Kleinfinger",
+        "clientweb": "#",
+        "cover": "lola1.png",
+        "date": "2024",
+        "description":"Lola Kleinfinger est avocate spécialisée en droit de la famille. Elle a souhaité une identité visuelle sobre et élégante, qui reflète son professionnalisme et sa bienveillance.",
+        "images": [
+            "lola2.png",
+            "lola3.png",
+            "lola4.png",
+            "lola5.png"
+        ],
+        "imageDescriptions": {
+            "vitesse1.webp": "toto",
+            "vitesse3.webp": "Enim penatibus felis luctus aliquet ultrices gravida. Proin tortor lectus at in ut tempor. Rutrum facilisis proin pretium elit tortor vel urna fringilla congue."
+        }
+    }
+]
